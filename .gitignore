@@ -1,2 +1,7 @@
 .env
 /node_modules
+# vercel
+.vercel
+
+# vscode
+.vscode/
