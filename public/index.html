@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>📚 Bookshelf Assistant</title>
+  <title>Bookshelf Assistant</title>
   <style>
     body {
       font-family: system-ui, sans-serif;
@@ -13,7 +13,8 @@
       background: #faf9f7;
       color: #222;
     }
-    h1 { font-size: 1.6rem; }
+    h1 { font-size: 1.6rem; margin-bottom: 4px; }
+    p.subtitle { color: #666; margin-top: 0; }
     .box {
       display: flex;
       gap: 8px;
@@ -44,44 +45,112 @@
       min-height: 40px;
       white-space: pre-wrap;
       line-height: 1.5;
+      margin-bottom: 16px;
     }
-    .examples { font-size: 0.85rem; color: #666; }
+    .examples { font-size: 0.85rem; color: #666; margin-bottom: 16px; }
     .examples span {
       cursor: pointer;
       text-decoration: underline;
       margin-right: 12px;
     }
+    #book-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 16px;
+    }
+    .book-card {
+      background: white;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .book-card img {
+      width: 100%;
+      aspect-ratio: 2/3;
+      object-fit: cover;
+      background: #e8e4df;
+    }
+    .book-card .no-cover {
+      width: 100%;
+      aspect-ratio: 2/3;
+      background: #e8e4df;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 12px;
+      font-size: 0.75rem;
+      color: #888;
+      font-style: italic;
+    }
+    .book-into {
+      padding: 10px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .book-title {
+      font-weight: 600;
+      font-size: 0.85rem;
+      line-height: 1.2;
+    }
+    .book-author {
+      font-size: 0.72rem;
+      color: #666;
+    }
+    .book-meta {
+      font-size: 0.68rem;
+      color: #999;
+      display: flex;
+      gap: 6px;
+      margin-top: 4px;
+    }
+    .book-meta .status {
+      padding: 1px 5px;
+      border-radius: 3px;
+      font-size: 0.62rem;
+    }
+    .status-Finished { background: #d4edda; color: #155724; }
+    .status-Reading { background: #fff3cd; color: #856404; }
+    .status-To-Read { background: #e2e3f1; color: #383d94; }
   </style>
 </head>
 <body>
-  <h1>📚 Bookshelf Assistant</h1>
-  <p>Ask anything about your book collection.</p>
+  <h1>Bookshelf Assistant</h1>
+  <p class="subtitle">Ask anything about your book collection.</p>
 
   <div class="box">
-    <input id="q" placeholder="e.g. Which books are about AI?" />
+    <input id="q" placeholder="e.g. give me all sci-fi books" onkeydown="if(event.key==='Enter')ask()" />
     <button id="btn" onclick="ask()">Ask</button>
   </div>
 
   <p class="examples">
     Try:
-    <span onclick="fill('Which books are about AI?')">books about AI</span>
+    <span onclick="fill('Give me all sci-fi books')">all sci-fi books</span>
     <span onclick="fill('What have I finished?')">what I finished</span>
     <span onclick="fill('Recommend a hopeful book')">a hopeful book</span>
   </p>
 
   <div id="answer">Your answer will appear here.</div>
+  <div id="book-grid"></div>
 
   <script>
     function fill(text) {
       document.getElementById("q").value = text;
+      ask();
     }
     async function ask() {
       const q = document.getElementById("q").value;
       const btn = document.getElementById("btn");
       const answer = document.getElementById("answer");
+      const grid = document.getElementById("book-grid");
       if (!q) return;
       btn.disabled = true;
-      answer.textContent = "Thinking... 🤔";
+      answer.textContent = "Thinking...";
+      grid.innerHTML = "";
       try {
         const res = await fetch("/ask", {
           method: "POST",
@@ -90,10 +159,33 @@
         });
         const data = await res.json();
         answer.textContent = data.answer;
+        if (data.books && data.books.length) renderBooks(data.books);
       } catch (e) {
         answer.textContent = "Something went wrong: " + e.message;
       }
       btn.disabled = false;
+    }
+    function renderBooks(books) {
+      const grid = document.getElementById("book-grid");
+      grid.innerHTML = books
+        .map(
+          (b) => `
+        <div class="book-card">
+          ${b.cover
+            ? `<img src="${b.cover}" alt="${b.title}" loading="lazy" />`
+            : `<div class="no-cover">${b.title}</div>`
+          }
+          <div class="book-into">
+            <div class="book-title">${b.title}</div>
+            <div class="book-author">${b.author}</div>
+            <div class="book-meta">
+              <span>${b.rating}</span>
+              <span class="status status-${b.status.replace(/\s/g, "-")}">${b.status}</span>
+            </div>
+          </div>
+        </div>`
+        )
+        .join("");
     }
   </script>
 </body>
