@@ -38,5 +38,965 @@
     "rating": 4.3,
     "status": "To-Read",
     "notes": "Told from the view of an AI companion robot. A gentle, emotional look at love, hope, and what it means to be human."
+  },
+  {
+    "id": 5,
+    "title": "1984",
+    "author": { "name": "George Orwell", "country": "UK" },
+    "genre": "Dystopian",
+    "year": 1949,
+    "rating": 4.8,
+    "status": "Finished",
+    "notes": "A dark political novel about surveillance, control, propaganda, and resistance under a totalitarian regime."
+  },
+  {
+    "id": 6,
+    "title": "Brave New World",
+    "author": { "name": "Aldous Huxley", "country": "UK" },
+    "genre": "Dystopian",
+    "year": 1932,
+    "rating": 4.5,
+    "status": "To-Read",
+    "notes": "A futuristic society built on comfort, consumption, conditioning, and the loss of individuality."
+  },
+  {
+    "id": 7,
+    "title": "The Left Hand of Darkness",
+    "author": { "name": "Ursula K. Le Guin", "country": "USA" },
+    "genre": "Sci-Fi",
+    "year": 1969,
+    "rating": 4.6,
+    "status": "To-Read",
+    "notes": "A thoughtful science fiction novel exploring gender, diplomacy, identity, and trust on an alien world."
+  },
+  {
+    "id": 8,
+    "title": "The Dispossessed",
+    "author": { "name": "Ursula K. Le Guin", "country": "USA" },
+    "genre": "Sci-Fi",
+    "year": 1974,
+    "rating": 4.6,
+    "status": "Reading",
+    "notes": "A philosophical story about anarchism, capitalism, freedom, science, and the cost of building a better society."
+  },
+  {
+    "id": 9,
+    "title": "Neuromancer",
+    "author": { "name": "William Gibson", "country": "Canada" },
+    "genre": "Cyberpunk",
+    "year": 1984,
+    "rating": 4.4,
+    "status": "To-Read",
+    "notes": "A cyberpunk classic about hackers, artificial intelligence, virtual worlds, and corporate power."
+  },
+  {
+    "id": 10,
+    "title": "Snow Crash",
+    "author": { "name": "Neal Stephenson", "country": "USA" },
+    "genre": "Cyberpunk",
+    "year": 1992,
+    "rating": 4.4,
+    "status": "To-Read",
+    "notes": "A fast, wild cyberpunk novel about the metaverse, language, viruses, corporations, and information warfare."
+  },
+  {
+    "id": 11,
+    "title": "Foundation",
+    "author": { "name": "Isaac Asimov", "country": "USA" },
+    "genre": "Sci-Fi",
+    "year": 1951,
+    "rating": 4.5,
+    "status": "Finished",
+    "notes": "A grand story of psychohistory, civilization, decline, and long-term planning across a galactic empire."
+  },
+  {
+    "id": 12,
+    "title": "I, Robot",
+    "author": { "name": "Isaac Asimov", "country": "USA" },
+    "genre": "Sci-Fi",
+    "year": 1950,
+    "rating": 4.4,
+    "status": "Finished",
+    "notes": "A collection of robot stories exploring logic, ethics, artificial intelligence, and the famous Three Laws of Robotics."
+  },
+  {
+    "id": 13,
+    "title": "The Martian",
+    "author": { "name": "Andy Weir", "country": "USA" },
+    "genre": "Sci-Fi",
+    "year": 2011,
+    "rating": 4.8,
+    "status": "Finished",
+    "notes": "A stranded astronaut survives on Mars using engineering, science, humor, and relentless problem-solving."
+  },
+  {
+    "id": 14,
+    "title": "Hyperion",
+    "author": { "name": "Dan Simmons", "country": "USA" },
+    "genre": "Sci-Fi",
+    "year": 1989,
+    "rating": 4.6,
+    "status": "To-Read",
+    "notes": "A layered science fiction epic with pilgrims, mystery, time, religion, and unforgettable worldbuilding."
+  },
+  {
+    "id": 15,
+    "title": "Ender's Game",
+    "author": { "name": "Orson Scott Card", "country": "USA" },
+    "genre": "Sci-Fi",
+    "year": 1985,
+    "rating": 4.6,
+    "status": "Finished",
+    "notes": "A young genius is trained for war in a story about strategy, empathy, leadership, and moral responsibility."
+  },
+  {
+    "id": 16,
+    "title": "The Three-Body Problem",
+    "author": { "name": "Liu Cixin", "country": "China" },
+    "genre": "Sci-Fi",
+    "year": 2008,
+    "rating": 4.5,
+    "status": "Reading",
+    "notes": "A hard science fiction novel about first contact, physics, civilization, and humanity's place in the universe."
+  },
+  {
+    "id": 17,
+    "title": "Children of Time",
+    "author": { "name": "Adrian Tchaikovsky", "country": "UK" },
+    "genre": "Sci-Fi",
+    "year": 2015,
+    "rating": 4.7,
+    "status": "To-Read",
+    "notes": "A sweeping story of evolution, survival, intelligence, and the rise of a very different civilization."
+  },
+  {
+    "id": 18,
+    "title": "Do Androids Dream of Electric Sheep?",
+    "author": { "name": "Philip K. Dick", "country": "USA" },
+    "genre": "Sci-Fi",
+    "year": 1968,
+    "rating": 4.3,
+    "status": "To-Read",
+    "notes": "A philosophical sci-fi novel about androids, empathy, identity, and what separates humans from machines."
+  },
+  {
+    "id": 19,
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": { "name": "Douglas Adams", "country": "UK" },
+    "genre": "Sci-Fi Comedy",
+    "year": 1979,
+    "rating": 4.7,
+    "status": "Finished",
+    "notes": "A funny cosmic adventure full of absurdity, satire, aliens, and the meaning of life."
+  },
+  {
+    "id": 20,
+    "title": "The Time Machine",
+    "author": { "name": "H.G. Wells", "country": "UK" },
+    "genre": "Sci-Fi",
+    "year": 1895,
+    "rating": 4.2,
+    "status": "To-Read",
+    "notes": "A foundational time travel story about class, evolution, the future, and the destiny of humanity."
+  },
+  {
+    "id": 21,
+    "title": "The War of the Worlds",
+    "author": { "name": "H.G. Wells", "country": "UK" },
+    "genre": "Sci-Fi",
+    "year": 1898,
+    "rating": 4.3,
+    "status": "To-Read",
+    "notes": "A classic alien invasion story exploring fear, imperialism, survival, and humanity's vulnerability."
+  },
+  {
+    "id": 22,
+    "title": "Fahrenheit 451",
+    "author": { "name": "Ray Bradbury", "country": "USA" },
+    "genre": "Dystopian",
+    "year": 1953,
+    "rating": 4.6,
+    "status": "Finished",
+    "notes": "A powerful novel about censorship, books, mass media, and the importance of independent thought."
+  },
+  {
+    "id": 23,
+    "title": "The Road",
+    "author": { "name": "Cormac McCarthy", "country": "USA" },
+    "genre": "Post-Apocalyptic",
+    "year": 2006,
+    "rating": 4.5,
+    "status": "To-Read",
+    "notes": "A bleak but moving story of a parent and child traveling through a devastated world."
+  },
+  {
+    "id": 24,
+    "title": "Station Eleven",
+    "author": { "name": "Emily St. John Mandel", "country": "Canada" },
+    "genre": "Post-Apocalyptic",
+    "year": 2014,
+    "rating": 4.4,
+    "status": "To-Read",
+    "notes": "A literary post-apocalyptic novel about art, memory, survival, and what remains after civilization collapses."
+  },
+  {
+    "id": 25,
+    "title": "The Name of the Wind",
+    "author": { "name": "Patrick Rothfuss", "country": "USA" },
+    "genre": "Fantasy",
+    "year": 2007,
+    "rating": 4.7,
+    "status": "Reading",
+    "notes": "A beautifully written fantasy about music, magic, storytelling, ambition, and the making of a legend."
+  },
+  {
+    "id": 26,
+    "title": "The Way of Kings",
+    "author": { "name": "Brandon Sanderson", "country": "USA" },
+    "genre": "Fantasy",
+    "year": 2010,
+    "rating": 4.8,
+    "status": "To-Read",
+    "notes": "A massive epic fantasy about honor, war, broken people, ancient powers, and personal growth."
+  },
+  {
+    "id": 27,
+    "title": "Mistborn: The Final Empire",
+    "author": { "name": "Brandon Sanderson", "country": "USA" },
+    "genre": "Fantasy",
+    "year": 2006,
+    "rating": 4.6,
+    "status": "Finished",
+    "notes": "A heist-style fantasy about rebellion, metal-based magic, oppression, and hope against impossible odds."
+  },
+  {
+    "id": 28,
+    "title": "A Game of Thrones",
+    "author": { "name": "George R.R. Martin", "country": "USA" },
+    "genre": "Fantasy",
+    "year": 1996,
+    "rating": 4.7,
+    "status": "To-Read",
+    "notes": "A political fantasy full of noble houses, betrayal, power struggles, family, and war."
+  },
+  {
+    "id": 29,
+    "title": "The Fellowship of the Ring",
+    "author": { "name": "J.R.R. Tolkien", "country": "UK" },
+    "genre": "Fantasy",
+    "year": 1954,
+    "rating": 4.8,
+    "status": "Finished",
+    "notes": "The beginning of a legendary quest about friendship, courage, sacrifice, and resisting evil."
+  },
+  {
+    "id": 30,
+    "title": "The Two Towers",
+    "author": { "name": "J.R.R. Tolkien", "country": "UK" },
+    "genre": "Fantasy",
+    "year": 1954,
+    "rating": 4.8,
+    "status": "Finished",
+    "notes": "The middle part of the epic journey, following divided companions through war, danger, and loyalty."
+  },
+  {
+    "id": 31,
+    "title": "The Return of the King",
+    "author": { "name": "J.R.R. Tolkien", "country": "UK" },
+    "genre": "Fantasy",
+    "year": 1955,
+    "rating": 4.9,
+    "status": "Finished",
+    "notes": "The conclusion of the epic quest, filled with sacrifice, triumph, loss, and healing."
+  },
+  {
+    "id": 32,
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": { "name": "J.K. Rowling", "country": "UK" },
+    "genre": "Fantasy",
+    "year": 1997,
+    "rating": 4.6,
+    "status": "Finished",
+    "notes": "A magical school adventure about friendship, discovery, courage, and finding a place to belong."
+  },
+  {
+    "id": 33,
+    "title": "The Lion, the Witch and the Wardrobe",
+    "author": { "name": "C.S. Lewis", "country": "UK" },
+    "genre": "Fantasy",
+    "year": 1950,
+    "rating": 4.4,
+    "status": "To-Read",
+    "notes": "A classic portal fantasy about children entering Narnia and discovering courage, sacrifice, and wonder."
+  },
+  {
+    "id": 34,
+    "title": "American Gods",
+    "author": { "name": "Neil Gaiman", "country": "UK" },
+    "genre": "Fantasy",
+    "year": 2001,
+    "rating": 4.4,
+    "status": "To-Read",
+    "notes": "A mythic road novel about old gods, new gods, belief, identity, and modern America."
+  },
+  {
+    "id": 35,
+    "title": "Good Omens",
+    "author": { "name": "Neil Gaiman and Terry Pratchett", "country": "UK" },
+    "genre": "Fantasy Comedy",
+    "year": 1990,
+    "rating": 4.6,
+    "status": "Finished",
+    "notes": "A funny apocalyptic fantasy about an angel, a demon, friendship, fate, and saving the world."
+  },
+  {
+    "id": 36,
+    "title": "The Color of Magic",
+    "author": { "name": "Terry Pratchett", "country": "UK" },
+    "genre": "Fantasy Comedy",
+    "year": 1983,
+    "rating": 4.2,
+    "status": "To-Read",
+    "notes": "The first Discworld novel, full of comic fantasy, parody, strange magic, and clever absurdity."
+  },
+  {
+    "id": 37,
+    "title": "The Priory of the Orange Tree",
+    "author": { "name": "Samantha Shannon", "country": "UK" },
+    "genre": "Fantasy",
+    "year": 2019,
+    "rating": 4.4,
+    "status": "To-Read",
+    "notes": "A standalone epic fantasy with dragons, queens, ancient threats, politics, and powerful women."
+  },
+  {
+    "id": 38,
+    "title": "Jonathan Strange & Mr Norrell",
+    "author": { "name": "Susanna Clarke", "country": "UK" },
+    "genre": "Fantasy",
+    "year": 2004,
+    "rating": 4.3,
+    "status": "To-Read",
+    "notes": "A rich historical fantasy about English magic, scholarship, rivalry, and the return of old powers."
+  },
+  {
+    "id": 39,
+    "title": "Piranesi",
+    "author": { "name": "Susanna Clarke", "country": "UK" },
+    "genre": "Fantasy",
+    "year": 2020,
+    "rating": 4.6,
+    "status": "Finished",
+    "notes": "A mysterious, beautiful novel about memory, solitude, wonder, and a house that seems endless."
+  },
+  {
+    "id": 40,
+    "title": "The Lies of Locke Lamora",
+    "author": { "name": "Scott Lynch", "country": "USA" },
+    "genre": "Fantasy",
+    "year": 2006,
+    "rating": 4.5,
+    "status": "To-Read",
+    "notes": "A witty fantasy heist story about thieves, friendship, schemes, revenge, and a dangerous city."
+  },
+  {
+    "id": 41,
+    "title": "Pride and Prejudice",
+    "author": { "name": "Jane Austen", "country": "UK" },
+    "genre": "Classic",
+    "year": 1813,
+    "rating": 4.7,
+    "status": "Finished",
+    "notes": "A sharp romantic classic about manners, pride, class, first impressions, and personal growth."
+  },
+  {
+    "id": 42,
+    "title": "Jane Eyre",
+    "author": { "name": "Charlotte Bronte", "country": "UK" },
+    "genre": "Classic",
+    "year": 1847,
+    "rating": 4.5,
+    "status": "To-Read",
+    "notes": "A gothic coming-of-age novel about independence, morality, love, hardship, and self-respect."
+  },
+  {
+    "id": 43,
+    "title": "Wuthering Heights",
+    "author": { "name": "Emily Bronte", "country": "UK" },
+    "genre": "Classic",
+    "year": 1847,
+    "rating": 4.2,
+    "status": "To-Read",
+    "notes": "A dark and passionate classic about obsession, revenge, family, class, and destructive love."
+  },
+  {
+    "id": 44,
+    "title": "Great Expectations",
+    "author": { "name": "Charles Dickens", "country": "UK" },
+    "genre": "Classic",
+    "year": 1861,
+    "rating": 4.4,
+    "status": "To-Read",
+    "notes": "A classic story of ambition, guilt, social class, love, and moral development."
+  },
+  {
+    "id": 45,
+    "title": "A Tale of Two Cities",
+    "author": { "name": "Charles Dickens", "country": "UK" },
+    "genre": "Classic",
+    "year": 1859,
+    "rating": 4.4,
+    "status": "Finished",
+    "notes": "A historical classic set during the French Revolution, focused on sacrifice, justice, and redemption."
+  },
+  {
+    "id": 46,
+    "title": "Moby-Dick",
+    "author": { "name": "Herman Melville", "country": "USA" },
+    "genre": "Classic",
+    "year": 1851,
+    "rating": 4.1,
+    "status": "To-Read",
+    "notes": "A dense seafaring classic about obsession, nature, fate, revenge, and the hunt for a white whale."
+  },
+  {
+    "id": 47,
+    "title": "The Great Gatsby",
+    "author": { "name": "F. Scott Fitzgerald", "country": "USA" },
+    "genre": "Classic",
+    "year": 1925,
+    "rating": 4.3,
+    "status": "Finished",
+    "notes": "A short American classic about wealth, illusion, love, ambition, and the emptiness of the American Dream."
+  },
+  {
+    "id": 48,
+    "title": "To Kill a Mockingbird",
+    "author": { "name": "Harper Lee", "country": "USA" },
+    "genre": "Classic",
+    "year": 1960,
+    "rating": 4.8,
+    "status": "Finished",
+    "notes": "A powerful novel about childhood, justice, racism, empathy, and moral courage."
+  },
+  {
+    "id": 49,
+    "title": "The Catcher in the Rye",
+    "author": { "name": "J.D. Salinger", "country": "USA" },
+    "genre": "Classic",
+    "year": 1951,
+    "rating": 4.0,
+    "status": "To-Read",
+    "notes": "A coming-of-age novel about alienation, grief, identity, and teenage confusion."
+  },
+  {
+    "id": 50,
+    "title": "One Hundred Years of Solitude",
+    "author": { "name": "Gabriel Garcia Marquez", "country": "Colombia" },
+    "genre": "Magical Realism",
+    "year": 1967,
+    "rating": 4.7,
+    "status": "To-Read",
+    "notes": "A landmark magical realist novel about family, memory, history, solitude, and cycles of time."
+  },
+  {
+    "id": 51,
+    "title": "The Alchemist",
+    "author": { "name": "Paulo Coelho", "country": "Brazil" },
+    "genre": "Philosophical Fiction",
+    "year": 1988,
+    "rating": 4.2,
+    "status": "Finished",
+    "notes": "A simple spiritual story about dreams, destiny, signs, courage, and following a personal legend."
+  },
+  {
+    "id": 52,
+    "title": "Siddhartha",
+    "author": { "name": "Hermann Hesse", "country": "Germany" },
+    "genre": "Philosophical Fiction",
+    "year": 1922,
+    "rating": 4.4,
+    "status": "To-Read",
+    "notes": "A spiritual novel about self-discovery, wisdom, desire, suffering, and inner peace."
+  },
+  {
+    "id": 53,
+    "title": "The Stranger",
+    "author": { "name": "Albert Camus", "country": "France" },
+    "genre": "Philosophical Fiction",
+    "year": 1942,
+    "rating": 4.3,
+    "status": "To-Read",
+    "notes": "An existential novel about absurdity, detachment, society, justice, and meaning."
+  },
+  {
+    "id": 54,
+    "title": "Crime and Punishment",
+    "author": { "name": "Fyodor Dostoevsky", "country": "Russia" },
+    "genre": "Classic",
+    "year": 1866,
+    "rating": 4.7,
+    "status": "Reading",
+    "notes": "A psychological classic about guilt, morality, poverty, pride, punishment, and redemption."
+  },
+  {
+    "id": 55,
+    "title": "The Brothers Karamazov",
+    "author": { "name": "Fyodor Dostoevsky", "country": "Russia" },
+    "genre": "Classic",
+    "year": 1880,
+    "rating": 4.8,
+    "status": "To-Read",
+    "notes": "A philosophical family drama about faith, doubt, free will, morality, and responsibility."
+  },
+  {
+    "id": 56,
+    "title": "Anna Karenina",
+    "author": { "name": "Leo Tolstoy", "country": "Russia" },
+    "genre": "Classic",
+    "year": 1878,
+    "rating": 4.7,
+    "status": "To-Read",
+    "notes": "A sweeping classic about love, family, society, desire, duty, and tragedy."
+  },
+  {
+    "id": 57,
+    "title": "War and Peace",
+    "author": { "name": "Leo Tolstoy", "country": "Russia" },
+    "genre": "Classic",
+    "year": 1869,
+    "rating": 4.6,
+    "status": "To-Read",
+    "notes": "A monumental novel about history, war, family, politics, love, and the movement of nations."
+  },
+  {
+    "id": 58,
+    "title": "The Old Man and the Sea",
+    "author": { "name": "Ernest Hemingway", "country": "USA" },
+    "genre": "Classic",
+    "year": 1952,
+    "rating": 4.2,
+    "status": "Finished",
+    "notes": "A short, symbolic story about endurance, pride, struggle, nature, and dignity."
+  },
+  {
+    "id": 59,
+    "title": "The Sun Also Rises",
+    "author": { "name": "Ernest Hemingway", "country": "USA" },
+    "genre": "Classic",
+    "year": 1926,
+    "rating": 4.1,
+    "status": "To-Read",
+    "notes": "A modernist novel about disillusionment, travel, love, masculinity, and the Lost Generation."
+  },
+  {
+    "id": 60,
+    "title": "Beloved",
+    "author": { "name": "Toni Morrison", "country": "USA" },
+    "genre": "Historical Fiction",
+    "year": 1987,
+    "rating": 4.6,
+    "status": "To-Read",
+    "notes": "A haunting novel about slavery, memory, trauma, motherhood, identity, and survival."
+  },
+  {
+    "id": 61,
+    "title": "The Bluest Eye",
+    "author": { "name": "Toni Morrison", "country": "USA" },
+    "genre": "Literary Fiction",
+    "year": 1970,
+    "rating": 4.4,
+    "status": "To-Read",
+    "notes": "A painful and powerful novel about beauty standards, racism, childhood, and internalized harm."
+  },
+  {
+    "id": 62,
+    "title": "Things Fall Apart",
+    "author": { "name": "Chinua Achebe", "country": "Nigeria" },
+    "genre": "Historical Fiction",
+    "year": 1958,
+    "rating": 4.5,
+    "status": "Finished",
+    "notes": "A major African novel about tradition, masculinity, colonialism, change, and cultural conflict."
+  },
+  {
+    "id": 63,
+    "title": "The Kite Runner",
+    "author": { "name": "Khaled Hosseini", "country": "Afghanistan" },
+    "genre": "Historical Fiction",
+    "year": 2003,
+    "rating": 4.7,
+    "status": "Finished",
+    "notes": "A moving story about friendship, betrayal, guilt, redemption, family, and Afghanistan's history."
+  },
+  {
+    "id": 64,
+    "title": "A Thousand Splendid Suns",
+    "author": { "name": "Khaled Hosseini", "country": "Afghanistan" },
+    "genre": "Historical Fiction",
+    "year": 2007,
+    "rating": 4.8,
+    "status": "To-Read",
+    "notes": "A heartbreaking and hopeful story about women, friendship, suffering, resilience, and love."
+  },
+  {
+    "id": 65,
+    "title": "The Book Thief",
+    "author": { "name": "Markus Zusak", "country": "Australia" },
+    "genre": "Historical Fiction",
+    "year": 2005,
+    "rating": 4.7,
+    "status": "Finished",
+    "notes": "A World War II novel narrated by Death, centered on books, kindness, fear, and human courage."
+  },
+  {
+    "id": 66,
+    "title": "All the Light We Cannot See",
+    "author": { "name": "Anthony Doerr", "country": "USA" },
+    "genre": "Historical Fiction",
+    "year": 2014,
+    "rating": 4.5,
+    "status": "To-Read",
+    "notes": "A beautifully written World War II novel about a blind girl, a young soldier, radio, and survival."
+  },
+  {
+    "id": 67,
+    "title": "The Nightingale",
+    "author": { "name": "Kristin Hannah", "country": "USA" },
+    "genre": "Historical Fiction",
+    "year": 2015,
+    "rating": 4.6,
+    "status": "To-Read",
+    "notes": "A wartime story about sisters, resistance, sacrifice, family, and courage under occupation."
+  },
+  {
+    "id": 68,
+    "title": "The Song of Achilles",
+    "author": { "name": "Madeline Miller", "country": "USA" },
+    "genre": "Mythological Fiction",
+    "year": 2011,
+    "rating": 4.7,
+    "status": "Finished",
+    "notes": "A lyrical retelling of Achilles and Patroclus, focused on love, fate, war, and loss."
+  },
+  {
+    "id": 69,
+    "title": "Circe",
+    "author": { "name": "Madeline Miller", "country": "USA" },
+    "genre": "Mythological Fiction",
+    "year": 2018,
+    "rating": 4.6,
+    "status": "To-Read",
+    "notes": "A mythological retelling about power, isolation, transformation, motherhood, and self-discovery."
+  },
+  {
+    "id": 70,
+    "title": "Hamnet",
+    "author": { "name": "Maggie O'Farrell", "country": "Ireland" },
+    "genre": "Historical Fiction",
+    "year": 2020,
+    "rating": 4.4,
+    "status": "To-Read",
+    "notes": "A literary historical novel about grief, family, Shakespeare's household, and the loss of a child."
+  },
+  {
+    "id": 71,
+    "title": "The Silent Patient",
+    "author": { "name": "Alex Michaelides", "country": "Cyprus" },
+    "genre": "Thriller",
+    "year": 2019,
+    "rating": 4.3,
+    "status": "Finished",
+    "notes": "A psychological thriller about a silent woman, a determined therapist, secrets, obsession, and a twist."
+  },
+  {
+    "id": 72,
+    "title": "Gone Girl",
+    "author": { "name": "Gillian Flynn", "country": "USA" },
+    "genre": "Thriller",
+    "year": 2012,
+    "rating": 4.5,
+    "status": "To-Read",
+    "notes": "A dark psychological thriller about marriage, media, manipulation, lies, and unreliable narration."
+  },
+  {
+    "id": 73,
+    "title": "The Girl with the Dragon Tattoo",
+    "author": { "name": "Stieg Larsson", "country": "Sweden" },
+    "genre": "Crime",
+    "year": 2005,
+    "rating": 4.4,
+    "status": "To-Read",
+    "notes": "A crime mystery involving family secrets, journalism, hacking, corruption, and justice."
+  },
+  {
+    "id": 74,
+    "title": "The Da Vinci Code",
+    "author": { "name": "Dan Brown", "country": "USA" },
+    "genre": "Thriller",
+    "year": 2003,
+    "rating": 4.1,
+    "status": "Finished",
+    "notes": "A fast-paced mystery thriller about symbols, art, secret societies, history, and hidden clues."
+  },
+  {
+    "id": 75,
+    "title": "And Then There Were None",
+    "author": { "name": "Agatha Christie", "country": "UK" },
+    "genre": "Mystery",
+    "year": 1939,
+    "rating": 4.6,
+    "status": "To-Read",
+    "notes": "A classic mystery about strangers trapped on an island, secrets, guilt, and murder."
+  },
+  {
+    "id": 76,
+    "title": "Murder on the Orient Express",
+    "author": { "name": "Agatha Christie", "country": "UK" },
+    "genre": "Mystery",
+    "year": 1934,
+    "rating": 4.5,
+    "status": "Finished",
+    "notes": "A famous detective mystery featuring Hercule Poirot, a train, a murder, and a clever solution."
+  },
+  {
+    "id": 77,
+    "title": "The Hound of the Baskervilles",
+    "author": { "name": "Arthur Conan Doyle", "country": "UK" },
+    "genre": "Mystery",
+    "year": 1902,
+    "rating": 4.4,
+    "status": "To-Read",
+    "notes": "A Sherlock Holmes mystery involving a family curse, a wild moor, fear, and rational investigation."
+  },
+  {
+    "id": 78,
+    "title": "The Thursday Murder Club",
+    "author": { "name": "Richard Osman", "country": "UK" },
+    "genre": "Mystery",
+    "year": 2020,
+    "rating": 4.2,
+    "status": "To-Read",
+    "notes": "A cozy mystery about retirees solving crimes with humor, warmth, and surprising skill."
+  },
+  {
+    "id": 79,
+    "title": "The Girl on the Train",
+    "author": { "name": "Paula Hawkins", "country": "UK" },
+    "genre": "Thriller",
+    "year": 2015,
+    "rating": 4.0,
+    "status": "To-Read",
+    "notes": "A psychological thriller about memory, obsession, unreliable narration, and a missing woman."
+  },
+  {
+    "id": 80,
+    "title": "Shutter Island",
+    "author": { "name": "Dennis Lehane", "country": "USA" },
+    "genre": "Thriller",
+    "year": 2003,
+    "rating": 4.4,
+    "status": "To-Read",
+    "notes": "A suspenseful mystery set in a psychiatric hospital, exploring trauma, truth, and perception."
+  },
+  {
+    "id": 81,
+    "title": "Atomic Habits",
+    "author": { "name": "James Clear", "country": "USA" },
+    "genre": "Self-Help",
+    "year": 2018,
+    "rating": 4.8,
+    "status": "Finished",
+    "notes": "A practical guide to building better habits through small improvements, systems, identity, and environment."
+  },
+  {
+    "id": 82,
+    "title": "Deep Work",
+    "author": { "name": "Cal Newport", "country": "USA" },
+    "genre": "Productivity",
+    "year": 2016,
+    "rating": 4.6,
+    "status": "Finished",
+    "notes": "A productivity book about focus, distraction, concentration, and creating meaningful high-value work."
+  },
+  {
+    "id": 83,
+    "title": "Digital Minimalism",
+    "author": { "name": "Cal Newport", "country": "USA" },
+    "genre": "Productivity",
+    "year": 2019,
+    "rating": 4.4,
+    "status": "To-Read",
+    "notes": "A guide to using technology intentionally, reducing digital noise, and reclaiming attention."
+  },
+  {
+    "id": 84,
+    "title": "The Psychology of Money",
+    "author": { "name": "Morgan Housel", "country": "USA" },
+    "genre": "Finance",
+    "year": 2020,
+    "rating": 4.7,
+    "status": "Finished",
+    "notes": "A clear book about money behavior, risk, wealth, patience, luck, and long-term thinking."
+  },
+  {
+    "id": 85,
+    "title": "Rich Dad Poor Dad",
+    "author": { "name": "Robert T. Kiyosaki", "country": "USA" },
+    "genre": "Finance",
+    "year": 1997,
+    "rating": 4.2,
+    "status": "Finished",
+    "notes": "A personal finance book about assets, liabilities, financial education, and mindset around money."
+  },
+  {
+    "id": 86,
+    "title": "The Intelligent Investor",
+    "author": { "name": "Benjamin Graham", "country": "USA" },
+    "genre": "Finance",
+    "year": 1949,
+    "rating": 4.6,
+    "status": "To-Read",
+    "notes": "A classic investing book about value investing, risk, margin of safety, and disciplined decision-making."
+  },
+  {
+    "id": 87,
+    "title": "Zero to One",
+    "author": { "name": "Peter Thiel", "country": "USA" },
+    "genre": "Business",
+    "year": 2014,
+    "rating": 4.4,
+    "status": "Finished",
+    "notes": "A startup book about innovation, monopoly, technology, contrarian thinking, and building something new."
+  },
+  {
+    "id": 88,
+    "title": "The Lean Startup",
+    "author": { "name": "Eric Ries", "country": "USA" },
+    "genre": "Business",
+    "year": 2011,
+    "rating": 4.3,
+    "status": "To-Read",
+    "notes": "A startup methodology book about experiments, MVPs, validated learning, iteration, and reducing waste."
+  },
+  {
+    "id": 89,
+    "title": "Good to Great",
+    "author": { "name": "Jim Collins", "country": "USA" },
+    "genre": "Business",
+    "year": 2001,
+    "rating": 4.4,
+    "status": "To-Read",
+    "notes": "A business book about leadership, discipline, culture, focus, and building enduring companies."
+  },
+  {
+    "id": 90,
+    "title": "Thinking, Fast and Slow",
+    "author": { "name": "Daniel Kahneman", "country": "Israel" },
+    "genre": "Psychology",
+    "year": 2011,
+    "rating": 4.6,
+    "status": "Reading",
+    "notes": "A major psychology book about decision-making, bias, intuition, rationality, and human judgment."
+  },
+  {
+    "id": 91,
+    "title": "Sapiens",
+    "author": { "name": "Yuval Noah Harari", "country": "Israel" },
+    "genre": "History",
+    "year": 2011,
+    "rating": 4.7,
+    "status": "Finished",
+    "notes": "A broad history of humanity covering cognition, agriculture, empire, money, science, and modern society."
+  },
+  {
+    "id": 92,
+    "title": "Homo Deus",
+    "author": { "name": "Yuval Noah Harari", "country": "Israel" },
+    "genre": "History",
+    "year": 2015,
+    "rating": 4.4,
+    "status": "To-Read",
+    "notes": "A speculative look at humanity's future, technology, data, immortality, intelligence, and meaning."
+  },
+  {
+    "id": 93,
+    "title": "A Brief History of Time",
+    "author": { "name": "Stephen Hawking", "country": "UK" },
+    "genre": "Science",
+    "year": 1988,
+    "rating": 4.5,
+    "status": "To-Read",
+    "notes": "A famous science book explaining cosmology, black holes, time, space, and the universe."
+  },
+  {
+    "id": 94,
+    "title": "The Selfish Gene",
+    "author": { "name": "Richard Dawkins", "country": "UK" },
+    "genre": "Science",
+    "year": 1976,
+    "rating": 4.4,
+    "status": "To-Read",
+    "notes": "An influential biology book about evolution, genes, natural selection, and the logic of survival."
+  },
+  {
+    "id": 95,
+    "title": "The Gene",
+    "author": { "name": "Siddhartha Mukherjee", "country": "India" },
+    "genre": "Science",
+    "year": 2016,
+    "rating": 4.6,
+    "status": "To-Read",
+    "notes": "A history of genetics covering heredity, DNA, medicine, identity, ethics, and scientific discovery."
+  },
+  {
+    "id": 96,
+    "title": "Educated",
+    "author": { "name": "Tara Westover", "country": "USA" },
+    "genre": "Memoir",
+    "year": 2018,
+    "rating": 4.7,
+    "status": "Finished",
+    "notes": "A memoir about growing up isolated, seeking education, family conflict, resilience, and self-invention."
+  },
+  {
+    "id": 97,
+    "title": "Becoming",
+    "author": { "name": "Michelle Obama", "country": "USA" },
+    "genre": "Memoir",
+    "year": 2018,
+    "rating": 4.6,
+    "status": "To-Read",
+    "notes": "A memoir about identity, family, public life, purpose, and personal growth."
+  },
+  {
+    "id": 98,
+    "title": "Man's Search for Meaning",
+    "author": { "name": "Viktor E. Frankl", "country": "Austria" },
+    "genre": "Psychology",
+    "year": 1946,
+    "rating": 4.8,
+    "status": "Finished",
+    "notes": "A profound book about survival, suffering, meaning, responsibility, and psychological resilience."
+  },
+  {
+    "id": 99,
+    "title": "The Diary of a Young Girl",
+    "author": { "name": "Anne Frank", "country": "Netherlands" },
+    "genre": "Memoir",
+    "year": 1947,
+    "rating": 4.7,
+    "status": "To-Read",
+    "notes": "A powerful diary about adolescence, fear, hope, hiding, and life during the Holocaust."
+  },
+  {
+    "id": 100,
+    "title": "Meditations",
+    "author": { "name": "Marcus Aurelius", "country": "Roman Empire" },
+    "genre": "Philosophy",
+    "year": 180,
+    "rating": 4.6,
+    "status": "Reading",
+    "notes": "A classic Stoic text about discipline, mortality, character, reason, and living with inner strength."
   }
 ]
