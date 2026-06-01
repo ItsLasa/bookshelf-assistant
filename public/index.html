@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>📚 Bookshelf Assistant</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 640px;
+      margin: 40px auto;
+      padding: 0 16px;
+      background: #faf9f7;
+      color: #222;
+    }
+    h1 { font-size: 1.6rem; }
+    .box {
+      display: flex;
+      gap: 8px;
+      margin: 20px 0;
+    }
+    input {
+      flex: 1;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+    button {
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      background: #2c6e49;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:disabled { background: #999; }
+    #answer {
+      background: white;
+      border: 1px solid #eee;
+      border-radius: 12px;
+      padding: 16px;
+      min-height: 40px;
+      white-space: pre-wrap;
+      line-height: 1.5;
+    }
+    .examples { font-size: 0.85rem; color: #666; }
+    .examples span {
+      cursor: pointer;
+      text-decoration: underline;
+      margin-right: 12px;
+    }
+  </style>
+</head>
+<body>
+  <h1>📚 Bookshelf Assistant</h1>
+  <p>Ask anything about your book collection.</p>
+
+  <div class="box">
+    <input id="q" placeholder="e.g. Which books are about AI?" />
+    <button id="btn" onclick="ask()">Ask</button>
+  </div>
+
+  <p class="examples">
+    Try:
+    <span onclick="fill('Which books are about AI?')">books about AI</span>
+    <span onclick="fill('What have I finished?')">what I finished</span>
+    <span onclick="fill('Recommend a hopeful book')">a hopeful book</span>
+  </p>
+
+  <div id="answer">Your answer will appear here.</div>
+
+  <script>
+    function fill(text) {
+      document.getElementById("q").value = text;
+    }
+    async function ask() {
+      const q = document.getElementById("q").value;
+      const btn = document.getElementById("btn");
+      const answer = document.getElementById("answer");
+      if (!q) return;
+      btn.disabled = true;
+      answer.textContent = "Thinking... 🤔";
+      try {
+        const res = await fetch("/ask", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ question: q }),
+        });
+        const data = await res.json();
+        answer.textContent = data.answer;
+      } catch (e) {
+        answer.textContent = "Something went wrong: " + e.message;
+      }
+      btn.disabled = false;
+    }
+  </script>
+</body>
+</html>

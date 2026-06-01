@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Dune",
+    "author": { "name": "Frank Herbert", "country": "USA" },
+    "genre": "Sci-Fi",
+    "year": 1965,
+    "rating": 4.8,
+    "status": "Finished",
+    "notes": "Epic story about politics, religion, and ecology on a desert planet. Explores AI-free societies and human potential."
+  },
+  {
+    "id": 2,
+    "title": "Project Hail Mary",
+    "author": { "name": "Andy Weir", "country": "USA" },
+    "genre": "Sci-Fi",
+    "year": 2021,
+    "rating": 4.9,
+    "status": "Finished",
+    "notes": "A lone astronaut solves a science mystery to save Earth. Hopeful, funny, full of problem-solving and friendship."
+  },
+  {
+    "id": 3,
+    "title": "The Hobbit",
+    "author": { "name": "J.R.R. Tolkien", "country": "UK" },
+    "genre": "Fantasy",
+    "year": 1937,
+    "rating": 4.7,
+    "status": "Reading",
+    "notes": "A cozy adventure about a hobbit who finds courage. Themes of home, bravery, and growth."
+  },
+  {
+    "id": 4,
+    "title": "Klara and the Sun",
+    "author": { "name": "Kazuo Ishiguro", "country": "UK" },
+    "genre": "Sci-Fi",
+    "year": 2021,
+    "rating": 4.3,
+    "status": "To-Read",
+    "notes": "Told from the view of an AI companion robot. A gentle, emotional look at love, hope, and what it means to be human."
+  }
+]
